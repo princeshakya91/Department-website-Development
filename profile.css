@@ -1,0 +1,259 @@
+#img_alert {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#img_alert.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+#req_id1 {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#req_id1.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+#req_id2 {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#req_id2.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+#req_pre1 {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#req_pre1.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+
+
+
+.User_Img img{
+    border-radius: 100%;
+    transform: translateY(-50px) translateX(-120px);
+    background-color: #E7EAED;
+}
+
+.user_name{
+    transform: translateY(-110px) translateX(30px);
+    text-shadow: 2px 2px #D3D3D3;
+}
+.profile_cards{}
+
+#navbar{
+    background-color: #4F4B41;
+}
+
+.my_pro{
+    color: #E6DFC2;
+}
+
+#navbar a{
+    color: black;
+}
+#navbar a:hover{
+    color: white;
+}
+
+.navbar button{
+    transition: transform 0.2s;
+}
+
+.navbar button:hover{
+    transform: translateX(-20px);
+}
+
+
+
+/*This is Aside Properties Only----------------------------------------------------
+-----------------------------------------------------------------------------------*/
+
+.aside{
+    height: 400px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(-50px);
+}
+
+/* Table of contents */
+.bd-aside a {
+    padding: .1875rem .5rem;
+    margin-top: .125rem;
+    margin-left: .3125rem;
+    color: rgba(0, 0, 0, .65);
+    text-decoration: none;
+}
+
+.bd-aside a:hover,
+.bd-aside a:focus {
+    color: rgba(0, 0, 0, .85);
+    background-color: rgba(121, 82, 179, .1);
+}
+
+.bd-aside .active {
+    font-weight: 600;
+    color: rgba(0, 0, 0, .85);
+}
+
+.bd-aside .btn {
+    padding: .25rem .5rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .65);
+    border: 0;
+}
+
+.bd-aside .btn:hover,
+.bd-aside .btn:focus {
+    color: rgba(0, 0, 0, .85);
+    background-color: rgba(121, 82, 179, .1);
+}
+
+.bd-aside .btn:focus {
+    box-shadow: 0 0 0 1px rgba(121, 82, 179, .7);
+}
+
+.bd-aside .btn::before {
+    width: 1.25em;
+    line-height: 0;
+    content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+    transition: transform .35s ease;
+
+    /* rtl:raw:
+    transform: rotate(180deg) translateX(-2px);
+    */
+    transform-origin: .5em 50%;
+}
+
+.bd-aside .btn[aria-expanded="true"]::before {
+    transform: rotate(90deg)/* rtl:ignore */;
+}
+/*This is Aside Properties Only----------------------------------------------------
+-----------------------------------------------------------------------------------*/
+
+/*
+=========================================This is Friend List Box==========================
+*/
+
+.friend_box{
+
+    width: 600px;
+    height: 400px;
+    padding-top: 700px;
+
+    padding-right: 100px;
+    padding-left: -400px;
+
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    transform: translateY(-450px) translateX(100px);
+}
+
+/*
+=========================================This is Friend List Box==========================
+*/
+.main_fri{
+    width: 600px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.card{
+    background-color: #DEE2E6;
+}
+
+.card:hover{
+    transition: transform .2s;
+    transform: translateX(30px);
+}
+
+.statics{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: -100px;
+    height: 470px;
+}
+
+.scroll {
+    margin-right: 30px;
+    width: auto;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-bottom: -140px;
+    transform: translateY(-160px);
+}
+
+@media (max-width: 800px) {
+    .scroll{
+        width: 600px;
+
+    }
+}
+
+@media (max-width: 900px){
+    .scroll{
+        width: 900px;
+        transform: translateY(50px);
+    }
+}
+
+.scrol{
+    margin: auto;
+    width: auto;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
